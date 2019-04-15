@@ -1,0 +1,17 @@
+apply plugin: 'scala'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.typesafe.akka:akka-actor_2.12:2.5.22'
+
+    // Use Scala 2.12 in our library project
+    implementation 'org.scala-lang:scala-library:2.12.8'
+
+    //testImplementation 'junit:junit:4.12'
+    //testImplementation 'org.scalatest:scalatest_2.12:3.0.5'
+
+    //testRuntimeOnly 'org.scala-lang.modules:scala-xml_2.12:1.1.1'
+}
